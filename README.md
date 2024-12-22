@@ -29,7 +29,7 @@ I'm Stephani Sara Miler. <br>
   
 </div>
 
-![snake animation](https://github.com/StephaniMiler/StephaniMiler/blob/output/github-contribution-grid-snake2.svg)
+![Snake Game](https://github.com/StephanMiler/StephaniMiler/raw/output/github-contribution-grid-snake.svg)
 
 
 
