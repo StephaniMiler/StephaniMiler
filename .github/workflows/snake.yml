@@ -8,19 +8,22 @@ on:
     - cron: "0 0 * * *"  # Executa diariamente
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v3
 
       - name: Generate Snake Game from activity data
-        uses: Platane/snk@v2
+        uses: Platane/snk/svg-only@v2
         with:
           github_user_name: StephaniMiler
-          outputs: dist/snake.svg
 
-      - name: Push generated Snake Game to the output branch
-        uses: actions/upload-artifact@v3
-        with:
-          path: dist/snake.svg
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Generate Snake Game animation" || exit 0
+          git push
+
