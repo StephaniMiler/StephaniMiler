@@ -9,9 +9,10 @@ I'm Stephani Sara Miler. <br>
 <div align="center">
   <a href="https://github.com/StephaniMiler">
     <!-- Estatísticas do GitHub -->
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=StephaniMiler&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&cache_seconds=86400"/>
-    <!-- Linguagens mais usadas -->
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StephaniMiler&layout=compact&theme=dracula&cache_seconds=86400"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=StephaniMiler&count_private=true&show_icons=true&theme=dracula&include_all_commits=true&cache_seconds=86400&token=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"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StephaniMiler&layout=compact&theme=dracula&cache_seconds=86400&token=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"/>
+
   </a>
 </div>
 
